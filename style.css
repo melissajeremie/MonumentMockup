@@ -1,6 +1,7 @@
 .navbar {
   width: 1200px;
   display: flex;
+  align-self: center;
 }
 
 .navlinks {
@@ -18,11 +19,13 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #333;
+  font-weight: bold;
 }
 
 
  body {
    display: flex;
+   align-self: center;
    flex-direction: column;
    justify-content: space-around;
  }
@@ -40,7 +43,7 @@
    line-height: 300px;
 
    font-family: 'Raleway',sans-serif;
-   font-weight: bolder;
+   font-weight: bold;
    color: white;
 
  }
@@ -56,7 +59,7 @@
 
 .main-content {
   flex: 3;
-  padding: 20px;
+  padding: 30px;
   margin: 0 auto;
 }
 .main-content img {
@@ -66,7 +69,7 @@
 }
 .aside {
   flex: 1;
-  padding: 20px;
+  padding: 30px;
   padding-top: 60px;
   margin: 0 auto;
   align-items: flex-end;
@@ -74,6 +77,7 @@
 .aside h2 {
   color: #476d81;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .aside img {
@@ -87,22 +91,89 @@ p {
 }
 li {
   font-family: 'Lato',sans-serif;
+  font-weight: bold;
 }
 h2 {
   font-family: 'Raleway',sans-serif;
   color: #476d81;
   text-transform: uppercase;
+  font-weight: bold;
 }
 h3 {
   font-family: 'Raleway',sans-serif;
   color: #476d81;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .recent-issues {
-  color: #5a889f
+  color: #5a889f;
+  font-weight: bold;
 }
-.footer-wrap {
-  height: 300px;
+footer {
+  align-self: center;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
   width: 1300px;
   background-color: lightblue;
+  align-items: center;
+}
+
+.socials {
+  align-items: center;
+font-size: 40px;
+opacity: 0.6;
+}
+.socials i {
+  margin: 20px;
+}
+
+.footer-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 1300px;
+  background-color: lightblue;
+  align-items: center;
+}
+.email {
+  height: 25px;
+  width: 275px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  border: 2px solid lightgray;
+  text-transform: uppercase;
+  text-align: center;
+  color: lightgray;
+  font-weight: bold;
+  margin: 15px;
+}
+.kit {
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  border: 2px solid gray;
+  background-color: inherit;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.kit:hover {
+  background-color: gray;
+  color: white;
+}
+
+.footer-bottom {
+  height: 50px;
+  width: 1300px;
+  background-color: lightblue;
+  border-top: 2px solid gray;
+  text-align: center;
 }

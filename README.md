@@ -18,7 +18,7 @@ Congratulations! You have been hired as a developer for Monument Lifestyle Magaz
 
 Your work must:
 
-- Use a unique title and a single unique `h1` tag.
+- Use a unique title and a single unique `h1` tag. 
 - Show images using `img` tags, including unique alt attributes.
 - Use an external CSS style sheet to style your pages.
 - Include a properly structured HTML file with a head and body.
